@@ -1,2 +1,2 @@
 # car-sales-prediction
-Beginner ML project
+beginner ml project that helps me understand regression, neural networks, neuron models, and network training
