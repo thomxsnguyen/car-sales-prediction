@@ -45,3 +45,4 @@ Coding
 
 - 'X'to represent inputs and 'y' for output
 - remove unecessary x-values or columns
+- we need to scale the data before training the model
