@@ -47,4 +47,3 @@ Coding
 - we need to scale the data before training the model
 - no overfitting, cannot train the model with specific examples
 - train with generalization
--when network is goign down, it's learning something
