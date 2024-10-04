@@ -42,7 +42,8 @@ two neuron model: matrix representation
 - f(W * P + b)
 
 Coding
-
 - 'X'to represent inputs and 'y' for output
 - remove unecessary x-values or columns
 - we need to scale the data before training the model
+- no overfitting, cannot train the model with specific examples
+- train with generalization
