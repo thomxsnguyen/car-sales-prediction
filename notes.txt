@@ -41,10 +41,22 @@ two neuron model: matrix representation
 - combine two singular neuron model
 - f(W * P + b)
 
-Coding
+random notes
 - 'X'to represent inputs and 'y' for output
 - remove unecessary x-values or columns
 - we need to scale the data before training the model
 - no overfitting, cannot train the model with specific examples
 - train with generalization
 -when network is goign down, it's learning something
+-remove independent variables that are not correlated to the dependent variable
+-when training a data it is best if we scale it first. This helps the machine learning algorithims
+-usually scale 0 to 1, if it was on a regular scale, the model will focus more on larger values and ignore the smaller ones
+- we split the data into training data and testing data to prevent overfitting. We don't want the model to do well on the training set but 
+do bad on the testing data.
+- testing set is used to test the model's unseen data-
+- generalization, the ability to accurately predict outcome
+-train: input, y-train: output, epochs: number of iterations, batch_size: number of samples per gradient update, verbose: controls level of detail printed,
+validation_split: fraction of the training data to be used as validation data, basically a reward system forn the model
+-training loss shows how well the model is doing on the training data (seen data)
+-validation loss shows how well the model is doing on the unseen dating (testing data)
+
